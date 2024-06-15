@@ -1,0 +1,123 @@
+/*Header design*/
+.logo {
+  display: flex;
+}
+
+/*Navigation bar design*/
+.nav {
+  margin-left: 50px;
+  display: inline-flex;
+}
+
+.nav ul {
+  list-style: none;
+  font-size: 30px;
+}
+
+.nav ul li {
+  display: inline;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  padding: 5px 38px;
+  border: 1px solid transparent;
+  transition: 0.5 ease;
+  color: rgb(12, 12, 147);
+}
+
+.nav ul li a:hover {
+  background-color: black;
+  color: white;
+}
+
+/*background design*/
+body {
+  background-image: url("../Pictures/service.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.sen {
+  font-size: 35px;
+  padding-top: 10px;
+  color: rgb(53, 106, 219);
+}
+
+.topic {
+  font-size: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-left: 250px;
+}
+
+.container {
+  display: flex;
+}
+
+.box-1 {
+  height: 300px;
+  width: 450px;
+  margin-right: 20px;
+}
+
+.box-2 {
+  height: 300px;
+  width: 400px;
+}
+
+ul {
+  font-size: 28px;
+  list-style-position: inside;
+  font-weight: bold;
+}
+
+li {
+  padding-bottom: 20px;
+}
+
+/*footer design*/
+#tab4 {
+    font-size: 30px;
+    font-family: 'Lucida Sans';
+    background-color: cadetblue;
+    color: white;
+    margin-top: 130px;
+}
+
+.link{
+  text-align: left;
+}
+
+#para5 {
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+#links {
+    font-size: 18px;
+    text-align: left;
+    padding: 30px;
+    padding-top: 10px;
+}
+
+#footer {
+    padding-top: 60px;
+    font-size: 26px;
+    
+}
+
+#para6 {
+    font-size: 16px;
+}
+
+#links a{
+    text-decoration: none;
+    font-size: 20px; 
+    color: rgb(89, 13, 160);
+}
+ 
+#links a:hover{
+  background-color: black;
+  color: white;
+}

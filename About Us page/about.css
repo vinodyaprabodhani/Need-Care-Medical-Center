@@ -1,0 +1,134 @@
+#tab1 {
+  background-image: url("../Pictures/about.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.logo {
+  display: flex;
+}
+
+.nav {
+  margin-left: 200px;
+  display: inline-flex;
+}
+
+.nav ul {
+  list-style: none;
+  padding-top: 20px;
+}
+
+.nav ul li {
+  display: inline;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  padding: 5px 38px;
+  border: 1px solid transparent;
+  transition: 0.5 ease;
+  color: rgb(12, 12, 147);
+  font-weight: bold;
+  font-size: 30px
+}
+
+.nav ul li a:hover {
+  background-color: black;
+  color: white;
+}
+
+h1 {
+    color: rgb(13, 13, 55);
+    font-weight: bold;
+    font-size: 60px;
+    font-family: "Georgia", Times, serif;
+    text-align: center;
+}
+
+h2{
+    color: rgb(10, 14, 147);
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Georgia", Times, serif;
+    text-align: center;
+}
+
+#p1 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+#p2 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+#p3 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+h3{
+    color: rgb(11, 59, 83);
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Georgia", Times, serif;
+}
+
+#tab2 {
+    background-color: rgb(90, 179, 212);
+    width: 100%;
+}
+
+li{
+    font-size: 20px;
+}
+
+#tab4 {
+    font-size: 30px;
+    font-family: 'Lucida Sans';
+    background-color: cadetblue;
+    color: white;
+}
+
+.link{
+  text-align: left;
+}
+
+#para5 {
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+#links {
+    font-size: 18px;
+    text-align: left;
+    padding: 30px;
+    padding-top: 10px;
+}
+
+#footer {
+    padding-top: 60px;
+    font-size: 26px;
+    
+}
+
+#para6 {
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px; 
+    color: rgb(89, 13, 160);
+}
+ 
+a:hover{
+  background-color: black;
+  color: white;
+}
+

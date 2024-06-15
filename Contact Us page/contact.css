@@ -1,0 +1,185 @@
+/*body design*/
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("..//Pictures/contact.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*header*/
+.logo {
+    display: flex;
+}
+
+/*Navigation bar design*/
+.nav {
+  margin-left: 200px;
+  display: inline-flex;
+}
+
+.nav ul {
+  list-style: none;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.nav ul li {
+  display: inline;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  padding: 5px 25px;
+  border: 1px solid transparent;
+  transition: 0.5 ease;
+  color: rgb(4, 4, 92);
+}
+
+.nav ul li a:hover {
+  background-color: black;
+  color: white;
+}
+
+/*main section*/
+main {
+    padding: 50px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+}
+
+.container-2{
+    display: flex;
+    margin-top: 20px;
+}
+
+li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+.list{
+    border: 2px solid;
+    background: linear-gradient(#B4D4FF, #EEF5FF);
+    width: 500px;
+}
+
+.list-1{
+    margin-left: 30px; 
+    border: 2px solid;
+    background: linear-gradient(#B4D4FF, #EEF5FF);
+    width: 500px;
+}
+
+.list-2{
+    margin-left: 30px;
+    border: 2px solid;
+    background: linear-gradient(#B4D4FF, #EEF5FF);
+    width: 500px;
+}
+
+.list-3{
+    margin-left: 450px;
+    border: 2px solid;
+    background: linear-gradient(#B4D4FF, #EEF5FF);
+    width: 500px;
+}
+
+h2{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+
+.form{
+    width: 50%;
+    backdrop-filter: blur(50px);
+    background: linear-gradient(#EEF0E5, #B4D4FF);
+    margin-top: 100px;
+    height: 430px;
+    margin-left: 300px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 50px;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+/* footer design*/
+#tab4 {
+    font-size: 30px;
+    font-family: 'Lucida Sans';
+    background-color: cadetblue;
+    color: white;
+}
+
+.link{
+  text-align: left;
+}
+
+#para5 {
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+#links {
+    font-size: 18px;
+    text-align: left;
+    padding: 30px;
+    padding-top: 10px;
+}
+
+#footer {
+    padding-top: 60px;
+    font-size: 26px;
+    
+}
+
+#para6 {
+    font-size: 16px;
+}
+
+#links a{
+    text-decoration: none;
+    font-size: 20px; 
+    color: rgb(89, 13, 160);
+}
+ 
+#links a:hover{
+  background-color: black;
+  color: white;
+}

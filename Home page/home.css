@@ -1,0 +1,153 @@
+#tab1 {
+    box-align:center;
+    width:100%;
+    background-image: url("../Pictures/bg.jpg");
+}
+
+#logo1 {
+    width:150px;
+}
+
+#image1 {
+    width:75px;
+    box-align:center;
+}
+
+#heading1 {
+    text-align:center;
+    font-style:bold;
+    font-size:50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.icon-bar a{
+    color: rgb(4,4,4);
+    padding: 10px 20px;
+    margin: 0px 50px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.icon-bar a:hover {
+    background-color: rgb(197,8,210);
+    padding-bottom: 20px;
+    padding-top: 70px;
+}
+
+#heading2 {
+    text-align: center;
+    font-size:50px;
+    font-family: 'Verdana';
+}
+
+#heading3 {
+    text-align:center;
+    font-size:30px;
+    color: rgb(186, 39, 46);
+    font-family:'Lucida Sans';
+}
+
+.btn-group button {
+    width:740px;
+    border:5px solid rgb(12,11,11);
+    color:rgb(20,20,173);
+    padding: 20px;
+    cursor: pointer;
+    float: left;
+    font-size:20px;
+    font-family: 'Lucida Sans';
+}
+
+.btn-group button:hover {
+    background-color:rgb(197,8,210) ;
+}
+
+#tab2 {
+    background-image: url();
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.scroll-container {
+    background-color: white;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+#scorll-image {
+    width: 600px;
+    height: 400px;
+}
+
+#tab3 {
+    font-size: 30px;
+    font-family: 'Lucida Sans';
+}
+
+#para2 {
+    font-size: 16px;
+    font-style: bold;
+}
+
+#para3 {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+#para3:hover {
+    background-color: rgb(197,8,210);
+    padding-top: 20px;
+}
+
+#para4 {
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#tab4 {
+    font-size: 30px;
+    font-family: 'Lucida Sans';
+    background-color: cadetblue;
+    color: white;
+}
+
+.link{
+  text-align: left;
+}
+
+#para5 {
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+#links {
+    font-size: 18px;
+    text-align: left;
+    padding: 30px;
+    padding-top: 10px;
+}
+
+#footer {
+    padding-top: 60px;
+    font-size: 26px;
+    
+}
+
+#para6 {
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px; 
+    color: rgb(89, 13, 160);
+}
+ 
+#links a:hover{
+  background-color: black;
+  color: white;
+}

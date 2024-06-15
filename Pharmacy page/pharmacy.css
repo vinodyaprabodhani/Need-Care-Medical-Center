@@ -1,0 +1,155 @@
+/*Header design*/
+.logo {
+  display: flex;
+}
+
+/*Navigation bar design*/
+.nav {
+  margin-left: 200px;
+  display: inline-flex;
+}
+
+.nav ul {
+  list-style: none;
+  padding-top: 20px;
+}
+
+.nav ul li {
+  display: inline;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  padding: 5px 38px;
+  border: 1px solid transparent;
+  transition: 0.5 ease;
+  color: rgb(12, 12, 147);
+  font-weight: bold;
+  font-size: 30px
+}
+
+.nav ul li a:hover {
+  background-color: black;
+  color: white;
+}
+
+body {
+  background-image: url("../Pictures/pharmacy.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  width: 700px;
+  border-radius: 8px;
+  padding: 30px;
+  text-align: center;
+  border: 1px solid black;
+  backdrop-filter: blur(80px);
+  margin-left: 25%;
+  margin-top: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  height: 30px;
+  background: white;
+  font-size: 15px;
+  margin-left: 40px;
+  margin-bottom: 15px;
+}
+
+.label-1 {
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+#requied::after{
+  content: " *";
+  color: red;
+}
+
+p {
+  text-align: left;
+  font-size: 20px;
+}
+
+select{
+  height: 30px;
+  background: white;
+  font-size: 15px;
+  margin-left: 40px;
+  margin-bottom: 15px;
+}
+
+.comment {
+  height: 50px;
+}
+
+.submit {
+  background-color: rgb(41, 33, 205);
+  color: white;
+  padding: 5px 40px 5px 40px;
+  border: 2px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.submit:hover {
+  background-color: rgb(170, 154, 158);
+}
+
+#tab4 {
+    font-size: 30px;
+    font-family: 'Lucida Sans';
+    background-color: cadetblue;
+    color: white;
+    margin-top: 50px;
+}
+
+.link{
+  text-align: left;
+}
+
+#para5 {
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+#links {
+    font-size: 18px;
+    text-align: left;
+    padding: 30px;
+    padding-top: 10px;
+}
+
+#footer {
+    padding-top: 60px;
+    font-size: 26px;
+    
+}
+
+#para6 {
+    font-size: 16px;
+    padding-left: 70px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px; 
+}
+ 
+a:hover{
+  background-color: black;
+  color: white;
+}
